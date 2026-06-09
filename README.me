@@ -1,0 +1,191 @@
+# SQL E-Commerce Sales Analysis
+
+## Project Overview
+
+This project analyzes e-commerce sales data using SQL to uncover insights into customer behavior, product performance, and sales trends.
+
+The analysis covers:
+
+- Data Quality Checks
+- Exploratory Data Analysis
+- Sales Analysis
+- Customer Analysis
+- Product Analysis
+- Time Series Analysis
+- Advanced SQL Analytics
+- RFM Customer Segmentation
+
+---
+
+
+## Business Questions Answered
+
+1. Which products generate the most revenue?
+2. Which customers contribute the most sales?
+3. How does revenue change over time?
+4. Which categories perform best?
+5. What customer segments drive business growth?
+6. Are sales concentrated among a small group of customers?
+
+---
+
+
+## Tools Used
+
+- PostgreSQL
+- pgAdmin 4
+- SQL
+- Git
+- GitHub
+
+---
+
+## Dataset & Database Schema
+
+The dataset contains customer, order, product, and transaction data for an e-commerce business.
+
+The database consists of four tables:
+### Customers
+
+| Column |
+|----------|
+| customer_id |
+| customer_name |
+| email |
+| city |
+| country |
+| signup_date |
+
+### Orders
+
+| Column |
+|----------|
+| order_id |
+| customer_id |
+| order_date |
+
+### Products
+
+| Column |
+|----------|
+| product_id |
+| product_name |
+| category |
+| price |
+
+### Order Items
+
+| Column |
+|----------|
+| order_item_id |
+| order_id |
+| product_id |
+| quantity |
+
+---
+
+## Project Structure
+
+```text
+sql-ecommerce-sales-analysis/
+
+├── data/
+├── schema/
+├── sql/
+├── screenshots/
+├── dashboard/
+└── README.md
+```
+
+## Analysis Performed
+
+### Data Cleaning
+- Null value checks
+- Duplicate checks
+- Referential integrity validation
+- Invalid value detection
+
+### Exploratory Data Analysis
+- Total revenue
+- Total orders
+- Total customers
+- Product distribution
+- Revenue distribution
+
+### Sales Analysis
+- Monthly revenue trends
+- Revenue by category
+- Average order value
+- Order performance analysis
+
+### Customer Analysis
+- Top customers
+- Customer lifetime value (CLV)
+- Revenue by city
+- Customer segmentation
+
+### Product Analysis
+- Product revenue analysis
+- Category performance
+- Best-selling products
+- Product rankings
+
+### Time Series Analysis
+- Monthly sales trends
+- Running revenue totals
+- Month-over-month growth
+- Moving averages
+
+### Advanced SQL Analysis
+- Common Table Expressions (CTEs)
+- Window Functions
+- RANK(), DENSE_RANK(), ROW_NUMBER()
+- Pareto (80/20) Analysis
+
+### RFM Analysis
+- Recency
+- Frequency
+- Monetary Value
+- Customer Segmentation
+
+
+## Key Insights
+
+## Key Insights
+
+- Identified top-performing products and categories by revenue.
+- Determined the highest-value customers based on customer lifetime value.
+- Measured monthly revenue trends and growth patterns.
+- Segmented customers using RFM analysis.
+- A small percentage of customers generated a large share of total revenue (Pareto principle).
+- Repeat customers contributed significantly more revenue than one-time customers.
+
+
+## SQL Skills Demonstrated
+
+- Joins
+- Aggregate Functions
+- CASE Statements
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+- Time-Series Analysis
+- Customer Segmentation
+- RFM Analysis
+
+
+## Screenshots
+
+### Monthly Revenue Trend
+(Add screenshot here)
+
+### Top Customers
+(Add screenshot here)
+
+### Revenue by Category
+(Add screenshot here)
+
+### RFM Analysis
+(Add screenshot here)
+
